@@ -40,7 +40,7 @@ DOCUMENTS_FILE = ROOT / "documents.json"  # committed: pins the exact filings
 USER_AGENT = "ehomsi.ieu2022@student.ie.edu"
 
 EMBEDDING_MODEL = "gemini-embedding-2"
-INDEX_DESIGNS = ["sections"]  # add "fixed" on another day (free tier: about 1,000 embeddings a day)
+INDEX_DESIGNS = ["sections", "fixed"]
 BATCH = 50  # texts per embedding call
 DAILY_CAP = 900  # at most this many new embeddings per run
 
